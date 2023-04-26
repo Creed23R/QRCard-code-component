@@ -33,6 +33,7 @@ body {
 }
 
 .main-container:hover{
+    cursor: pointer;
     box-shadow: 10px 10px 20px var(--DarkBlue);
     transform: translateY(-10px);
 }
@@ -43,7 +44,7 @@ body {
     background-position: center;
     background-size: cover;
     border-radius: 16px;
-    animation: UpCenter 500ms none;
+    animation: UpCenter 600ms none;
 }
 
 
@@ -51,14 +52,14 @@ body {
     color: var(--DarkBlue);
     margin: 26px 15px;
     text-align: center;
-    animation: LeftCenter 500ms none;
+    animation: LeftCenter 600ms none;
 }
 
 .main-container p{
     color: var(--GrayishBlue);
     margin: 0 25px;
     text-align: center;
-    animation: BottomCenter 500ms none;
+    animation: BottomCenter 600ms none;
 }
 
 .attribution {
