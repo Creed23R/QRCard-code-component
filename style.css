@@ -13,9 +13,18 @@
     --DarkBlue: hsl(218, 44%, 22%);
 }
 
+html,
+body {
+    height: 100%;
+}
+
 body {
     background-color: var(--LightGray);
     font-family: 'Outfit', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cards-container{
@@ -27,7 +36,6 @@ body {
     width: 320px;
     height: 500px;
     border-radius: 16px;
-    margin: 40px auto;
     padding: 16px;
     transition: all 0.3s ease-in-out;
 }
